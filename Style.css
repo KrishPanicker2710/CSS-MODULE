@@ -1,0 +1,21 @@
+body{
+        background-color: rgba(124, 194, 19, 0.829);
+    }
+h1{
+    color: rgba(19, 179, 194, 0.884);
+  }
+.Introduction{
+                color: ghostwhite;
+             }
+.Defence{
+            color: orangered; 
+        }
+.Attack{
+            color: royalblue;
+       }
+.Cure{
+        color: blueviolet;
+     }
+.Conclusion{
+              color: aqua;
+           }
