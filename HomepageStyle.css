@@ -1,0 +1,41 @@
+body {
+        background: linear-gradient(to bottom, #4FACFE, #00F2FE);
+        min-height: 100vh;
+        margin: 0;
+}
+.WeeksForecast {
+                    background-color: rgba(255, 255, 255, 0.85);
+                    color: #0A2540;
+                    text-align: center;
+                    text-shadow: 12px 12px 5px black;
+}
+h1 {
+        color: #0A2540;
+        text-shadow: 12px 12px 5px rgba(10, 37, 64, 0.3);
+        text-align: center;
+}
+
+h2, h3, p {
+                color: #1E3A5F;
+                text-align: center;
+
+}
+.ForecastToday {
+                    background-color: rgba(255, 255, 255, 0.85);
+                    color: #0A2540;
+                    text-align: center;
+                    text-shadow: 12px 12px 5px black;
+}
+.WeatherIcon {
+                transform: translateY(-200px);
+                animation: float 2s infinite alternate;
+}
+                
+@keyframes float {
+                    from {
+                            
+                    }
+                    to {
+                            transform: scale(1.15);
+                    }
+}
